@@ -19,7 +19,7 @@ interface LoginPayload {
 export const useAuthStore = defineStore('auth', {
   state: (): AuthState => ({
     user: null,
-    token: null
+    token: null,
   }),
   actions: {
     login(userData: LoginPayload) {
@@ -29,7 +29,7 @@ export const useAuthStore = defineStore('auth', {
     logout() {
       this.user = null
       this.token = null
-    }
+    },
   },
-  persist: true
+  persist: true,
 })

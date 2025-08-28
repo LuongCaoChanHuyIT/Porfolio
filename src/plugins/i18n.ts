@@ -10,8 +10,8 @@ const i18n = createI18n<[MessageSchema], 'en' | 'vi'>({
   fallbackLocale: 'en',
   messages: {
     en,
-    vi
-  }
+    vi,
+  },
 })
 
 export default i18n

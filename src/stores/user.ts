@@ -15,7 +15,7 @@ interface UserState {
 export const useUserStore = defineStore('user', {
   state: (): UserState => ({
     profile: null,
-    loading: false
+    loading: false,
   }),
   actions: {
     async fetchUser(): Promise<void> {
@@ -28,7 +28,7 @@ export const useUserStore = defineStore('user', {
       } finally {
         this.loading = false
       }
-    }
+    },
   },
-  persist: true
+  persist: true,
 })

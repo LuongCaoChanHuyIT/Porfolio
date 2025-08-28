@@ -5,11 +5,11 @@ const vi: MessageSchema = {
     home: 'Trang chủ',
     about: 'Giới thiệu',
     projects: 'Dự án',
-    contact: 'Liên hệ'
+    contact: 'Liên hệ',
   },
   message: {
-    welcome: 'Chào mừng bạn đến với website!'
-  }
+    welcome: 'Chào mừng bạn đến với website!',
+  },
 }
 
 export default vi

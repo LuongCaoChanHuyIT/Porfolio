@@ -5,11 +5,11 @@ const en: MessageSchema = {
     home: 'Home',
     about: 'Resume',
     projects: 'Projects',
-    contact: 'Contact'
+    contact: 'Contact',
   },
   message: {
-    welcome: 'Welcome to my website!'
-  }
+    welcome: 'Welcome to my website!',
+  },
 }
 
 export default en

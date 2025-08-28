@@ -6,10 +6,7 @@ const themeStore = useThemeStore()
 
 onMounted(async () => {
   await nextTick()
-  document.documentElement.setAttribute(
-    'data-bs-theme',
-    themeStore.isDark ? 'dark' : 'light'
-  )
+  document.documentElement.setAttribute('data-bs-theme', themeStore.isDark ? 'dark' : 'light')
 })
 </script>
 
@@ -17,5 +14,4 @@ onMounted(async () => {
   <router-view />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

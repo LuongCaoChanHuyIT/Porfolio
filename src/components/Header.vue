@@ -6,20 +6,12 @@
           <div class="col-xxl-5">
             <!-- Header text content-->
             <div class="text-center text-xxl-start">
-              <div
-                class="badge bg-gradient-primary-to-secondary text-white mb-4"
-              >
-                <div class="text-uppercase">
-                  Design &middot; Development &middot; Marketing
-                </div>
+              <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                <div class="text-uppercase">Design &middot; Development &middot; Marketing</div>
               </div>
-              <div class="fs-3 fw-light text-muted">
-                I can help your business to
-              </div>
+              <div class="fs-3 fw-light text-muted">I can help your business to</div>
               <h1 class="display-3 fw-bolder mb-5">
-                <span class="text-gradient d-inline"
-                  >Get online and grow fast</span
-                >
+                <span class="text-gradient d-inline">Get online and grow fast</span>
               </h1>
               <div
                 class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
@@ -31,7 +23,7 @@
                 >
                 <a
                   class="btn btn-lg px-5 py-3 fs-6 fw-bolder"
-                  :class="theme.isDark?'btn-outline-light':'btn-outline-dark'"
+                  :class="theme.isDark ? 'btn-outline-light' : 'btn-outline-dark'"
                   href="projects.html"
                   >Projects</a
                 >
@@ -57,9 +49,7 @@
                     style="enable-background: new 0 0 191.6 1215.4"
                     xml:space="preserve"
                   >
-                    <g
-                      transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                    >
+                    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
                       <path
                         d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
                       ></path>
@@ -136,9 +126,7 @@
                     style="enable-background: new 0 0 191.6 1215.4"
                     xml:space="preserve"
                   >
-                    <g
-                      transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                    >
+                    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
                       <path
                         d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
                       ></path>
@@ -215,9 +203,7 @@
                     style="enable-background: new 0 0 191.6 1215.4"
                     xml:space="preserve"
                   >
-                    <g
-                      transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                    >
+                    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
                       <path
                         d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
                       ></path>
@@ -294,9 +280,7 @@
                     style="enable-background: new 0 0 191.6 1215.4"
                     xml:space="preserve"
                   >
-                    <g
-                      transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                    >
+                    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
                       <path
                         d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
                       ></path>

@@ -9,12 +9,12 @@ const routes: Array<any> = [
   { path: '/', name: 'Home', component: Home },
   { path: '/resume', name: 'Resume', component: Resume },
   { path: '/projects', name: 'Projects', component: Projects },
-  { path: '/contact', name: 'Contact', component: Contact }
+  { path: '/contact', name: 'Contact', component: Contact },
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
 })
 
 export default router
