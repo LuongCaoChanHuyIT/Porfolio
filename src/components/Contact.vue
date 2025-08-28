@@ -3,7 +3,7 @@
         <section class="py-5">
                 <div class="container px-5">
                     <!-- Contact form-->
-                    <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+                    <div class="rounded-4 py-5 px-4 px-md-5" :class="theme.isDark?'bg-dark':'bg-light'">
                         <div class="text-center mb-5">
                             <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
                             <h1 class="fw-bolder">Get in touch</h1>
@@ -74,7 +74,9 @@
 <script setup lang="ts">
 import emailjs from 'emailjs-com'
 import { reactive } from 'vue'
+import { useThemeStore } from '@/stores/theme'
 
+const theme = useThemeStore()
 const form = reactive({
   name: '',
   email: '',

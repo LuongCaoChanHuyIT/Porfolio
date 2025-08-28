@@ -1,6 +1,6 @@
 <template lang="">
-    <div>
-        <section class="bg-light py-5">
+    <div >
+        <section class=" py-5" :class="theme.isDark?'bg-dark':'bg-light'">
                 <div class="container px-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
@@ -21,7 +21,9 @@
     </div>
 </template>
 <script setup lang="ts">
+import { useThemeStore } from '@/stores/theme'
 
+const theme = useThemeStore()
 </script>
 <style lang="">
     

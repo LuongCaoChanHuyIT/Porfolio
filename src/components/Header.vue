@@ -30,7 +30,8 @@
                   >Resume</a
                 >
                 <a
-                  class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                  class="btn btn-lg px-5 py-3 fs-6 fw-bolder"
+                  :class="theme.isDark?'btn-outline-light':'btn-outline-dark'"
                   href="projects.html"
                   >Projects</a
                 >
@@ -368,5 +369,9 @@
     </header>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useThemeStore } from '@/stores/theme'
+
+const theme = useThemeStore()
+</script>
 <style lang=""></style>
