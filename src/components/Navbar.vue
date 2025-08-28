@@ -25,8 +25,8 @@
                     >
                         {{ _locale === 'en' ? 'VI' : 'EN' }}
                     </button>
-                    <button @click="isDark = !isDark">
-                        {{ isDark ? 'Light' : 'Dark' }} Mode
+                    <button class="btn btn-outline-primary btn-sm ms-3" @click="theme.toggleDark()">
+                        {{ theme.isDark ? 'Light' : 'Dark' }} Mode
                     </button>
                 </div>
             </div>
@@ -37,12 +37,16 @@
 import { useI18n } from 'vue-i18n'
 import type { MessageSchema } from '@/locales/schema'
 import { ref, watchEffect } from 'vue'
+import { useThemeStore } from '@/stores/theme'
+
+const theme = useThemeStore()
 const isDark = ref(false)
 const { t: _t, locale: _locale } = useI18n<MessageSchema>()
 
 watchEffect(() => {
-  document.documentElement.setAttribute('data-bs-theme', isDark.value ? 'dark' : 'light')
+//   document.documentElement.setAttribute('data-bs-theme', isDark.value ? 'dark' : 'light')
 })
+
 </script>
 
 <style  lang="">
