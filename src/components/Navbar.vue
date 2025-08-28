@@ -6,7 +6,7 @@
     >
       <div class="container px-5">
         <a class="navbar-brand" href="index.html"
-          ><span class="fw-bolder text-primary">Start Bootstrap</span></a
+          ><span class="fw-bolder text-primary">{{ _t('navbar.namePorfolio') }}</span></a
         >
         <button
           class="navbar-toggler"
@@ -41,7 +41,7 @@
             {{ _locale === 'en' ? 'VI' : 'EN' }}
           </button>
           <button class="btn btn-outline-primary btn-sm ms-3" @click="theme.toggleDark()">
-            {{ theme.isDark ? 'Light' : 'Dark' }} Mode
+            {{ theme.isDark ? _t('theme.light') : _t('theme.dark') }} Mode
           </button>
         </div>
       </div>
