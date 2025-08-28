@@ -11732,3 +11732,7 @@ html {
     left: -2vw;
   }
 }
+.router-link-active {
+  font-weight: bold;
+  color: #0d6efd !important; /* Bootstrap primary */
+}

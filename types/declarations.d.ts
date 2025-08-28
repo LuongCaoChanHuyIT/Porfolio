@@ -1,2 +1,9 @@
 declare module 'bootstrap/dist/js/bootstrap.bundle.min.js';
 declare module 'bootstrap/dist/js/bootstrap.bundle';
+declare module '@assets/*';
+declare module '@components/*';
+declare module '@layouts/*';
+declare module '@locales/*';
+declare module '@plugins/*';
+declare module '@router/*';
+declare module '@views/*';

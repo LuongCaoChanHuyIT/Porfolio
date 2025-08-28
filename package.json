@@ -12,11 +12,13 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^5.3.8",
     "vue": "^3.5.18",
+    "vue-i18n": "^9.14.5",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
     "@vitejs/plugin-vue": "^6.0.1",
+    "@volar/vue-language-service": "^1.6.5",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.6.0",
     "@vue/tsconfig": "^0.7.0",
