@@ -3,7 +3,7 @@ import type { MessageSchema } from './schema'
 const en: MessageSchema = {
   navbar: {
     home: 'Home',
-    about: 'About',
+    about: 'Resume',
     projects: 'Projects',
     contact: 'Contact'
   },
